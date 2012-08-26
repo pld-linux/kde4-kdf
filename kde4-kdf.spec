@@ -5,12 +5,12 @@
 
 Summary:	K Desktop Environment - KDE Disk space GUI
 Name:		kde4-kdf
-Version:	4.8.0
+Version:	4.9.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
-# Source0-md5:	11ec8e7098f020574b925c614e9f46f2
+Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
+# Source0-md5:	7c1bef6cfb1c91ad439fdb3f89f24fcb
 URL:		http://www.kde.org/
 BuildRequires:	kde4-kdebase-devel >= %{version}
 Requires:	kde4-kdebase-workspace >= %{version}
